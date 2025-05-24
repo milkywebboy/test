@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Following Tweets</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1>Your Followings' Tweets</h1>
+  <% if (error) { %>
+    <p><%= error %></p>
+  <% } %>
+  <div class="timeline">
+    <% tweets.forEach(function(tweet) { %>
+      <div class="tweet">
+        <div class="tweet-user">
+          <img src="<%= tweet.user.profile_image_url_https %>" alt="icon">
+          <strong><%= tweet.user.name %></strong> @<%= tweet.user.screen_name %>
+        </div>
+        <p class="tweet-text"><%= tweet.full_text %></p>
+      </div>
+    <% }); %>
+  </div>
+</body>
+</html>

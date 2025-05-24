@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f8fa;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.timeline {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.tweet {
+  background: white;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.tweet-user img {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.tweet-user strong {
+  margin-right: 5px;
+}
+
+.tweet-text {
+  font-size: 14px;
+}

@@ -7,3 +7,23 @@
 | PHP							| 5.6.9 |
 | MySQL						| 5.6.23 |
 | jQuery					| 1.11.0 |
+## Twitter Following Feed
+
+This sample app displays tweets from accounts you follow using the Twitter API.
+
+### Setup
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Set your Twitter API credentials as environment variables:
+   - `TWITTER_CONSUMER_KEY`
+   - `TWITTER_CONSUMER_SECRET`
+   - `TWITTER_ACCESS_TOKEN`
+   - `TWITTER_ACCESS_TOKEN_SECRET`
+3. Start the server:
+   ```bash
+   npm start
+   ```
+4. Open `http://localhost:3000` in your browser to see the feed.
